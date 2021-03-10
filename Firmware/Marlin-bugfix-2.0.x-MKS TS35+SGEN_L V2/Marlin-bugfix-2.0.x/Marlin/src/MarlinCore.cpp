@@ -1227,7 +1227,7 @@ void setup() {
 
   marlin_state = MF_RUNNING;
   
-  digitalWrite(TFT_BACKLIGHT_PIN, HIGH);
+  //digitalWrite(TFT_BACKLIGHT_PIN, HIGH);
 
   SETUP_LOG("setup() completed.");
 }

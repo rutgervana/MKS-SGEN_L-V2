@@ -356,6 +356,10 @@
           #define LCD_PINS_D6              P1_00
           #define LCD_PINS_D7              P1_22
         #endif
+        #if ENABLED(REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER)
+          #define LCD_BACKLIGHT_PIN          -1  
+          #define TFT_BACKLIGHT_PIN          -1
+        #endif
 
       #endif // !FYSETC_MINI_12864
 
